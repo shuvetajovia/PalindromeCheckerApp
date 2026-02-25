@@ -6,7 +6,7 @@ public class UseCase7PalindromeCheckerApp {
     public static void main(String[] args) {
 
         String input = "refer";
-        Deque<Character> deque = new LinkedList<>();
+        Deque<Character> deque = new LinkedList<>();//
 
         // Insert characters into deque
         for (int i = 0; i < input.length(); i++) {
